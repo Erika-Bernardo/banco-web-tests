@@ -9,7 +9,6 @@
     "test-prod": "cypress run --env URL=https://mentoria.juliodelima.com.br/",
     "cy:headed": "cypress run --headed",
     "cy:open": "cypress open"
-
   },
   "repository": {
     "type": "git",
@@ -24,6 +23,7 @@
   "homepage": "https://github.com/Erika-Bernardo/banco-web-tests#readme",
   "description": "",
   "devDependencies": {
-    "cypress": "^14.5.1"
+    "cypress": "^14.5.1",
+    "cypress-mochawesome-reporter": "^4.0.2"
   }
 }
